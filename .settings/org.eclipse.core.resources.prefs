@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
-encoding//file/demo.py=utf-8
-encoding//main/index.py=utf-8
+encoding//day03/builtInFunction/Exp.py=utf-8
+encoding//day03/file/demo.py=utf-8
+encoding//day03/lambda/exp.py=utf-8
+encoding//day03/main/index.py=utf-8
 encoding/<project>=UTF-8
