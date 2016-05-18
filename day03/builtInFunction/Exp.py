@@ -82,10 +82,27 @@ def func(arg):
 def add100(arg):
     return arg + 100
 
-li = [11, 22, 33]
+li = [11.0, 22.0, 33.0]
 print('map的使用:')
 print(map(add100, li))
 print(map(lambda arg:arg + 100, li))
+
+def filte(arg):
+    if arg < 22:
+        return True
+    
+print('fileter 过滤器的使用:')
+print(filter(filte, li));
+
+print('reduce 的使用:')
+print(reduce(lambda x, y:x / y, li))
+
+x = [1, 2, 2]
+y = [2, 4, 4]
+z = [3, 6, 9]
+q = [4, 8, 8]
+print('zip的使用')
+print(zip(x, y, z, q))
 
 
 
